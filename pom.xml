@@ -27,7 +27,7 @@
 
     <modules>
         <module>AccountSystemDomian</module>
-        <module>AccountSystemrepository</module>
+        <module>AccountSystemRepository</module>
         <module>AccountSystemTranslator</module>
         <module>AccountSystemLogic</module>
         <module>AccountSystemWebSpringBoot</module>
@@ -73,9 +73,9 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>com.oracle</groupId>
-                <artifactId>ojdbc7</artifactId>
-                <scope>compile</scope>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc8</artifactId>
+                <version>21.1.0.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

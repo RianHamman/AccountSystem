@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AccountSystemDomian" />
-        <module name="AccountSystemrepository" />
         <module name="AccountSystemTranslator" />
+        <module name="AccountSystemDomian" />
         <module name="AccountSystemLogic" />
         <module name="AccountSystemWeb" />
         <module name="AccountSystemWebSpringBoot" />
+        <module name="AccountSystemRepository" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,10 +19,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AccountSystemDomian" options="-parameters" />
       <module name="AccountSystemLogic" options="-parameters" />
+      <module name="AccountSystemRepository" options="-parameters" />
       <module name="AccountSystemTranslator" options="-parameters" />
       <module name="AccountSystemWeb" options="-parameters" />
       <module name="AccountSystemWebSpringBoot" options="-parameters" />
-      <module name="AccountSystemrepository" options="-parameters" />
     </option>
   </component>
 </project>
